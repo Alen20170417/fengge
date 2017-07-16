@@ -1,0 +1,1 @@
+xcopy *.* C:\Users\DELL\Desktop\svn\linux1\fgg\ /s/y

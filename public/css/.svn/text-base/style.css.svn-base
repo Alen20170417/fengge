@@ -1,0 +1,27 @@
+/**
+ *@description 前台页面样式
+ *@author allen
+ *@create 2017/07/16
+ *@last modify 2017/07/16 增加几个样式
+ */
+ 
+/**
+ *@basic 基本样式
+ */
+.body{
+  font-size:12px;
+  font-family:'微软雅黑';
+}
+
+ul{padding:0px margin:0px}
+
+/**
+ *@funcion 公用样式
+ */
+.f-f-left{float:left}
+.f-f-right{float:right}
+.f-padding-0{padding:0px}
+
+/**
+ *@module 登陆模块样式
+ */

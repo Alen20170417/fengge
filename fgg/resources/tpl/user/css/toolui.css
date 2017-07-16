@@ -1,0 +1,76 @@
+@charset "utf-8";
+.layer{ position:absolute; display:none; width:100%; height:100%; z-index:888; left:0px; top:0px; background-color: #eaedec; filter: alpha(opacity=90);   opacity: 0.9;}
+.msgbox{ position:absolute; width:375px; height:200px; z-index:999;}
+.position-login,.position-share,.dialog,.gather,.message-box{ position:absolute; display:none; left:0px; top:0px; width:555px; z-index:999; height:350px; background-color:#fff; overflow:hidden}
+.position-login .position-login-left{float:left; width:332px; height:320px; padding:15px; overflow:hidden; display:block}
+.position-login .position-login-left ul{width:280px;}
+.position-login .position-login-left ul li{ padding:5px; margin:5px; margin-bottom:20px;height:25px; line-height:25px; background-color:#eef1f0}
+.position-login .position-login-left ul li label{ width:80px; display:inline-block}
+.position-login .position-login-left ul li input{ border:none;background-color:#eef1f0;height:25px; line-height:25px; outline:none}
+.position-login .position-login-left ul li.forgot,.position-login .position-login-left ul li.submit{ padding:0px; margin:0px; height:20px; line-height:20px; background:none}
+.position-login .position-login-left ul li.forgot #login_msg{ padding-left:10px; color:#ff0000}
+.position-login .position-login-left ul li.submit{ height:35px; margin-top:30px;}
+.position-login .position-login-left ul li.submit input{ display: block;background-color: #9dd6c5;width: 110px;height: 35px;line-height: 35px;text-align: center;border: 0 none;
+    color: #fff;font-size: 14px;float: right;cursor: pointer;outline: none;}
+.position-login .position-login-left ul li.forgot a{ float:right; color:#5b9; font-size:12px;}
+.position-login .position-login-left h3{ height:35px; line-height:35px; font-size:16px; margin-bottom:15px;}
+.position-login .position-login-left ul li .yzm-pic{ float:right; margin:0px; margin-top:-5px; margin-right:-5px; background-color:#fff; width:100px; padding:5px;height:30px;  }
+.position-login .position-login-right{float:left;width:193px; position:relative; height:350px;overflow:hidden; background-color:#5a5a5a; display:block }
+.position-login .position-login-right .auth-info{ color:#aaa; position:absolute; left:30px; top:20px; line-height:26px;}
+.position-login .position-login-right .auth-info a{ color:#9dd6c5;font: 12px/1.6 arial,helvetica,sans-serif;}
+.position-login .position-login-right .reg-info{color:#aaa; position:absolute; left:30px; top:260px; line-height:26px;}
+.position-login .position-login-right .reg-info a{font: 12px/1.6 arial,helvetica,sans-serif;border: 1px solid #666;display: block;width: 130px;height: 30px;padding-left: 10px;line-height: 30px;font-size: 14px;margin-top:10px;color:#fff}
+.position-login .position-login-right a.login-close{ position:absolute;  top:10px; right:15px;color:#fff;font: 11px/1.2 "Comic Sans MS", sans-serif;}
+.position-login .position-login-right a.login-close:hover{ text-decoration:none}
+.position-share{width:355px;height:180px; }
+.position-share .position-share-c{ position:relative;width:355px;height:180px; display:block}
+.position-share h3{ position:absolute; top:30px; text-align:center; font-size:16px; font-weight:normal; color:#ccc; left:40px;}
+.position-share .share_list{ position:absolute; top:60px; left:40px; }
+.position-share .share_list a{ display:inline-block; width:50px; height:75px;}
+.position-share .share_list a.qzone{  background:url(../images/share_pic.gif) no-repeat -83px -20px;}
+.position-share .share_list a.douban{  background:url(../images/share_pic.gif) no-repeat -158px -20px;}
+.position-share .share_list a.weibo{  background:url(../images/share_pic.gif) no-repeat -158px -105px;}
+.position-share .share_list a.qq{  background:url(../images/share_pic.gif) no-repeat  -20px -20px;}
+.position-share .share_list a.renren{  background:url(../images/share_pic.gif) no-repeat  -225px -105px;}
+.position-share .position-share-c a.login-close{ position:absolute; font-size:14px;  top:10px; right:15px;color:#000000;font: 11px/1.2 "Comic Sans MS", sans-serif;}
+.position-share .position-share-c a.login-close:hover{ text-decoration:none}
+
+.dialog{width:355px;height:180px; display:block}
+.dialog .dialog-c{ position:relative;width:355px;height:180px; display:block}
+.dialog .dialog-c p{ position:absolute; top:60px; padding-left:26px; height:22px; line-height:22px;  left:40px; font-size:14px; color:#666}
+.dialog .dialog-c p i{ position:absolute; left:0px; top:0px; width:22px; height:22px;}
+.dialog .dialog-c p .no{ background:url(../images/ui-dialog.png) no-repeat 0px -0px;}
+.dialog .dialog-c p .ok{ background:url(../images/ui-dialog.png) no-repeat -48px -0px;}
+.dialog .dialog-c a.dialog-close{ position:absolute; font-size:14px;  top:10px; right:15px; color:#000000;font: 11px/1.2 "Comic Sans MS", sans-serif;}
+.dialog .dialog-c a.dialog-close:hover{ text-decoration:none}
+.dialog h3{ position:absolute; top:30px; text-align:center; font-size:16px; font-weight:normal; color:#ccc; left:40px;}
+.dialog .dialog-c .dialog-btn{ position:absolute; z-index:222; top:120px; left:220px; font-size: 14px;    color: #fff;    background-color: #13df80;    padding: 5px;    padding-left: 10px;    padding-right: 10px;    border-radius: 3px;}
+.dialog .dialog-c .dialog-btn:hover{ text-decoration:none}
+
+.gather{ width:555px; height:350px;}
+.gather .gather-c{ position:relative;}
+.gather .gather-c .gather-c-img{ position:absolute; z-index:1000; left:45px; padding:2px; border:1px solid #ccc; top:50px; width:120px; color:#666;  overflow:hidden}
+.gather .gather-c .gather-c-op{ position:absolute; z-index:1001; left:185px; top:50px;}
+.gather .gather-c .gather-c-op li{ margin:10px; margin-top:0px;}
+.gather .gather-c .gather-c-op li.create-a{ display: none}
+.gather .gather-c .gather-c-op li span{ color:#ff0000}
+.gather .gather-c .gather-c-op select,.gather .gather-c .gather-c-op option{ width:255px; border:1px solid #13df80; outline:none}
+.gather .gather-c .gather-c-img img{width:120px;}
+.gather .gather-c .gather-close{ position:absolute; font-size:14px;  top:10px; right:15px; color:#000000;font: 11px/1.2 "Comic Sans MS", sans-serif;}
+.gather .gather-c .gather-close:hover{ text-decoration:none}
+.gather h3{ position:absolute; top:10px; text-align:center; font-size:16px; font-weight:normal; color:#ccc; left:40px;}
+.gather .gather-c .gather-btn{  font-size: 14px;    color: #fff;    background-color: #13df80;    padding: 5px;    padding-left: 10px;    padding-right: 10px;    border-radius: 3px;}
+.gather .gather-c .gatherr-btn:hover{ text-decoration:none}
+
+.message-box{ width:409px; height:350px;}
+.message-box .message-box-c{ position:relative;}
+.message-box h3{ position:absolute; top:30px; text-align:center; font-size:16px; font-weight:normal; color:#ccc; left:40px;}
+.message-box .message-box-c a.message-box-close{ position:absolute; font-size:14px;  top:10px; right:15px; color:#000000;font: 11px/1.2 "Comic Sans MS", sans-serif;}
+.message-box .message-box-c a.message-box-close:hover{ text-decoration:none}
+.message-box .message-box-c ul{ position: absolute; left: 30px; top:80px; z-index: 1999;}
+.message-box .message-box-c ul li{ padding: 10px;}
+.message-box .message-box-c ul li.notice{color: #ccc; padding-top: 2px; padding-bottom: 3px;}
+.message-box .message-box-c ul li textarea{width:322px; height:80px; border:1px solid #9c9c9c}
+.message-box .message-box-c ul li #error-msg{color:#ff0000}
+.message-box .message-box-c .message-box-c-btn{; font-size: 14px; color: #fff;background-color: #13df80;  padding: 5px; padding-left: 10px;padding-right: 10px;    border-radius: 3px;}
+
